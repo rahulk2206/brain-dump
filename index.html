@@ -85,6 +85,8 @@
       transform: translateY(-4px) scale(1.02);
     }
   </style>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#f59e0b">
 </head>
 <body>
   <div id="root"></div>
@@ -986,6 +988,11 @@
     }
 
     ReactDOM.render(<BrainDumpApp />, document.getElementById('root'));
+    <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+  }
+</script>
   </script>
 </body>
 </html>
