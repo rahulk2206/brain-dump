@@ -1,0 +1,16 @@
+{
+  "name": "brain-dump",
+  "version": "1.0.0",
+  "description": "Brain Dump - Your Productivity Companion",
+  "scripts": {
+    "sync": "npx cap sync",
+    "open:ios": "npx cap open ios",
+    "open:android": "npx cap open android"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/ios": "^6.0.0"
+  },
+  }
